@@ -1,0 +1,66 @@
+root@ip-172-31-39-224:~/app2# history
+    1  apt update -y
+    2  clear
+    3  git version
+    4  mkdir application1
+    5  cd application1/
+    6  pwd
+    7  ls -la
+    8  git clone https://github.com/raushan8586/intellipaat-dec.git
+    9  ls -l
+   10  cd intellipaat-dec/
+   11  ls -la
+   12  cat test_file.doc
+   13  cd ..
+   14  clear
+   15  mkdir app2
+   16  cd app2
+   17  ls -l
+   18  pwd
+   19  git init
+   20  ls -la
+   21  pwd
+   22  touch file1.txt
+   23  vi file1.txt
+   24  ls -l
+   25  pwd
+   26  clear
+   27  ls -l
+   28  git ls-files
+   29  ls -la
+   30  git status
+   31  git ls-files
+   32  ls -l
+   33  git status
+   34  clear
+   35  git status
+   36  ls -l
+   37  git add file1.txt
+   38  git ls-files
+   39  ls -l
+   40  git status
+   41  git commit -m "1st commit"
+   42  clear
+   43  ls -l
+   44  git ls-files
+   45  git status
+   46  touch file2.txt
+   47  git status
+   48  git ls-files
+   49  git add file2.txt
+   50  ls -l
+   51  git ls-files
+   52  git status
+   53  git commit -m "2nd commit"
+   54  clear
+   55  ls -l
+   56  git ls-files
+   57  git status
+   58  git remote -v
+   59  git remote add origin https://github.com/raushan8586/intellipaat-dec.git
+   60  git remote -v
+   61  git branch
+   62  git push origin master
+   63  clear
+   64  git branch
+   65  history
