@@ -64,3 +64,6 @@ root@ip-172-31-39-224:~/app2# history
    63  clear
    64  git branch
    65  history
+   git diff --staged file1.txt
+   73  git log
+   74  history
