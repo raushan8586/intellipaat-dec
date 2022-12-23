@@ -1,1 +1,2 @@
 This is file3 of app2
+This is 2nd line of file3 of app2
