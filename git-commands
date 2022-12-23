@@ -67,3 +67,82 @@ root@ip-172-31-39-224:~/app2# history
    git diff --staged file1.txt
    73  git log
    74  history
+    127  git log
+  128  git branch
+  129  git status
+  130  git commit -m "3rd commit"
+  131  git status
+  132  clear
+  133  git config --list
+  134  git config --global user.name raushan
+  135  git config --global user.email raushan8586.kumar@gmail.com
+  136  git config --list
+  137  cat ~/.gitconfig
+  138  ls -l
+  139  ls -la
+  140  cd .git
+  141  ls -l
+  142  cat config
+  143  git log
+  144  touch file3.txt
+  145  vi file3.txt
+  146  git add .
+  147  cd ..
+  148  pwd
+  149  ls -l
+  150  clear
+  151  touch file3.txt
+  152  vi file3.txt
+  153  git status
+  154  git add .
+  155  git status
+  156  git commit -m "4th commit"
+  157  git log
+  158  git show 7ca51e4ba9610a8a81b159bb03fc547762005ed3
+  159  clear
+  160  ls -l
+  161  git status
+  162  vi file3.txt
+  163  git status
+  164  git diff file3.txt
+  165  git add file3.txt
+  166  git diff file3.txt
+  167  git diff --staged file3.txt
+  168  git status
+  169  git restore --staged file3.txt
+  170  git status
+  171  git diff file3.txt
+  172  git commit -a -m "5th commit"
+  173  clear
+  174  ls -l
+  175  git status
+  176  rm file1.txt
+  177  ls -l
+  178  git ls-files
+  179  git status
+  180  git restore file1.txt
+  181  ls -l
+  182  git status
+  183  clear
+  184  git rm file1.txt
+  185  ls -l
+  186  git ls-files
+  187  git status
+  188  git restore --staged file1.txt
+  189  git status
+  190  git restore file1.txt
+  191  ls -l
+  192  git ls-files
+  193  git status
+  194  clear
+  195  git status
+  196  ls -l
+  197  git rm --cached file1.txt
+  198  ls -l
+  199  git ls-files
+  200  git status
+  201  git add file1.txt
+  202  git status
+  203  ls -l
+  204  git ls-files
+  205  history
