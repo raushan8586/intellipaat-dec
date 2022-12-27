@@ -204,3 +204,119 @@ clear
   261  clear
   262  ls -l
   263  git log --oneline
+ git status
+  451  git branch
+  452  clear
+  453  ls -l
+  454  git log --oneline
+  455  history
+  456  clear
+  457  git branch
+  458  git branch b1 master
+  459  git branch
+  460  git checkout b1
+  461  git branch
+  462  git log --oneline
+  463  ls -l
+  464  clear
+  465  git branch
+  466  ls -l
+  467  touch b1_sample1
+  468  vi b1_sample1
+  469  ls -l
+  470  git branch
+  471  git checkout master
+  472  ls -l
+  473  git branch
+  474  git checkout b1
+  475  clear
+  476  git status
+  477  git add .
+  478  git commit -m "b1_1st-commit"
+  479  git log --oneline
+  480  git checkout master
+  481  git log --oneline
+  482  ls -l
+  483  git branch
+  484  git checkout b1
+  485  clear
+  486  ls -l
+  487  git branch
+  488  git checkout master
+  489  git merge b1 master
+  490  git log --oneline
+  491  ls -l
+  492  git remote -v
+  493  git push origin b1
+  494  git push origin master
+  495  git pull
+  496  ls -l
+  497  got branch
+  498  gti branch
+  499  clear
+  500  git branch
+  501  git push origin master
+  502  git push origin b1
+  503  git pull
+  504  git pull origin master
+  505  git pull origin b1
+  506  git remote -v
+  507  git branch
+  508  clear
+  509  git checkout -b b2 master
+  510  git branch
+  511  git log --oneline
+  512  ls -l
+  513  touch b2_sample2
+  514  vi b2_sample2
+  515  git add .
+  516  git commit -m "b2_1st-commit"
+  517  git checkout b1
+  518  ls -l
+  519  touch b1_sample2
+  520  vi b1_sample2
+  521  git add .
+  522  git commit -m "b1_2nd-commit"
+  523  git branch
+  524  clear
+  525  git checkout master
+  526  git merge b2 master
+  527  git log --oneline
+  528  git branch
+  529  git merge b1 master
+  530  git log --oneline
+  531  git log --graph --pretty=oneline
+  532  git checkout b1
+  533  git log --graph --pretty=oneline
+  534  git branch
+  535  git checkout -b b3 master
+  536  ls -l
+  537  touch b3_sample3
+  538  vi b3_sample3
+  539  git add .
+  540  git commit -m "b3_1st-commit"
+  541  git checkout master
+  542  got merge b3 master
+  543  git merge b3 master
+  544  git checkout b2
+  545  ls -l
+  546  touch b2_sample3
+  547  vi b2_sample3
+  548  git add .
+  549  git log --oneline
+  550  git commit -m "b2_2nd-commit"
+  551  git branch
+  552  clear
+  553  git log --oneline
+  554  git checkout master
+  555  git log --oneline
+  556  git branch
+  557  git checkout b2
+  558  git rebase master
+  559  git log --oneline
+  560  git branch
+  561  git checkout master
+  562  git log --oneline
+  563  git merge b2 master
+  564  git log --graph --pretty=oneline
+  565  history
