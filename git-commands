@@ -146,3 +146,61 @@ root@ip-172-31-39-224:~/app2# history
   203  ls -l
   204  git ls-files
   205  history
+clear
+  207  git log
+  208  git show 60a9f1ca18eb3a69a70865241ffdc6919b9be492
+  209  ls -l
+  210  clear
+  211  git status
+  212  ls -l
+  213  touch error.log
+  214  touch app2.log
+  215  touch own-file
+  216  touch file4.txt
+  217  vi file4.txt
+  218  git status
+  219  git add file4.txt
+  220  git staus
+  221  git status
+  222  touch .gitignore
+  223  vi .gitignore
+  224  clear
+  225  git status
+  226  git add .gitignore
+  227  git commit -m "6th commit"
+  228  git status
+  229  ls -l
+  230  git ls-files
+  231  cat .gitignore
+  232  git log
+  233  git log --oneline
+  234  ls -l
+  235  touch file5.txt
+  236  vi file5.txt
+  237  git add .
+  238  got commit -m "7th commit"
+  239  git commit -m "7th commit"
+  240  clear
+  241  git log --oneline
+  242  git revert 2d2090c
+  243  git log --oneline
+  244  ls -l
+  245  git revert 2d2090c
+  246  git log --oneline
+  247  ls -l
+  248  clear
+  249  git log --oneline
+  250  git revert 94e1d57
+  251  git log --oneline
+  252  ls -l
+  253  clear
+  254  git log --oneline
+  255  git reset --hard 2d2090c
+  256  git log --oneline
+  257  git status
+  258  exit
+  259  ls -l
+  260  cd app2
+  261  clear
+  262  ls -l
+  263  git log --oneline
