@@ -320,3 +320,99 @@ clear
   563  git merge b2 master
   564  git log --graph --pretty=oneline
   565  history
+619  ls -l
+  620  cd app2
+  621  ls -l
+  622  clear
+  623  git branch
+  624  git checkout b1
+  625  git log --oneline
+  626  ls -l
+  627  touch index.html
+  628  vi index.html
+  629  git add .
+  630  git commit -m "b1_3rd-commit"
+  631  git rebase master
+  632  git checkout master
+  633  git merge b1 master
+  634  git log --oneline
+  635  git checkout b2
+  636  ls -l
+  637  touch index.html
+  638  vi index.html
+  639  git add .
+  640  git log --oneline
+  641  git commit -m "b2_3rd-commit"
+  642  git rebase master
+  643  git log --oneline
+  644  git branch
+  645  ls -l
+  646  cat index.html
+  647  git checkout master
+  648  vi index.html
+  649  git status
+  650  git add index.html
+  651  git rebase --continue
+  652  git branch
+  653  git log --oneline
+  654  cat index.html
+  655  git checkout master
+  656  git log --oneline
+  657  git merge b2 master
+  658  cat index.html
+  659  git checkout master
+  660  clear
+  661  ls -l
+  662  git log --oneline
+  663  git remote -v
+  664  git fetch origin
+  665  git log --oneline
+  666  git pull origin
+  667  git pull origin master
+  668  git log --oneline
+  669  git branch
+  670  git push origin b1
+  671  git push origin b2
+  672  git push origin b3
+  673  git pull origin master
+  674  git config pull.rebase true
+  675  git log --oneline
+  676  git pull origin master
+  677  git log --oneline
+  678  git push origin master
+  679  clear
+  680  git branch
+  681  ls -l
+  682  touch file7.txt
+  683  vi file7.txt
+  684  touch file8.txt
+  685  vi file8.txt
+  686  ls -l
+  687  git diff file7.txt
+  688  git status
+  689  git add .
+  690  git log --oneline
+  691  git commit -m "8th commit"
+  692  vi file7.txt
+  693  vi file8.txt
+  694  git diff file7.txt
+  695  git diff file8.txt
+  696  ls -l
+  697  git status
+  698  clear
+  699  git stash list
+  700  git stash
+  701  git status
+  702  git stash list
+  703  git show stash@{0}
+  704  git status
+  705  git stash pop stash@{0}
+  706  git status
+  707  git stash list
+  708  git stash -p
+  709  git status
+  710  git stash list
+  711  git stash drop stash@{0}
+  712  git status
+  713  git stash list
+  714  history
