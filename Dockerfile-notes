@@ -16,3 +16,20 @@ ENTRYPOINT : The ENTRYPOINT keyword is used strictly run commands the moment the
 The difference between CMD and ENTRYPOINT is, ENTRYPOINT will run irrespective of the fact            				whether argument is specified or not.
 
 ENV : The ENV is used to define environment variables in the container run-time.
+
+
+FROM php:7-fpm
+ADD script.sh /root
+WORKDIR /root
+RUN chmod +x script.sh
+RUN ./script.sh
+
+FROM php:7-fpm
+ADD script.sh /root
+WORKDIR /root
+RUN chmod +x script.sh
+RUN ./script.sh
+
+CMD command parameter1 parameter2
+
+ENTRYPOINT command parameter1 parameter2
