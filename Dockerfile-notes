@@ -1,0 +1,18 @@
+
+https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
+
+Various Commands in Dockerfile
+
+FROM : The FROM keyword is used to define the base image, on which we will be building
+
+ADD : The ADD keyword is used to add files to the container being built. The syntax which is followed is 
+      ADD <source> <destination in container> 
+
+RUN : The RUN keyword is used to add layers to the base image, by installing components. Each RUN statement, add a new layer the docker image
+
+CMD : The CMD keyword is used to run commands on the start of the container. These commands run only when there is no argument specified while running the container.
+
+ENTRYPOINT : The ENTRYPOINT keyword is used strictly run commands the moment the container initializes. 
+The difference between CMD and ENTRYPOINT is, ENTRYPOINT will run irrespective of the fact            				whether argument is specified or not.
+
+ENV : The ENV is used to define environment variables in the container run-time.
